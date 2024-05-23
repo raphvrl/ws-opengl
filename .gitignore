@@ -30,3 +30,15 @@
 *.exe
 *.out
 *.app
+
+# Headers
+include/GLFW/*.h
+include/glad/*.h
+include/KHR/*.h
+
+# Src
+src/glad.c
+src/main.cpp
+
+# Vscode
+.vscode/*
